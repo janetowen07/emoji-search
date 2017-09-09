@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import List from './List';
 import Search from './Search';
 
+import './App.css';
+
 class App extends Component {
   constructor (props) {
     super(props)
