@@ -10,7 +10,7 @@ class Search extends React.Component {
 		return (
 			<form className="searchbar">
 				<h4> I'm looking for...</h4>
-				<input type="text" onChange={this.handleChange}/>
+				<input type="text" onChange={this.handleChange} />
 			</form>
 		);
 	}

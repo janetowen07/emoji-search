@@ -29,7 +29,7 @@ class App extends Component {
   }
 }
 
-function filterEmojis(emojis, searchTerm, maxResults = 10) {
+function filterEmojis(emojis, searchTerm, maxResults = 20) {
   return emojis.filter((emoji) => {
     return emoji.title.includes(searchTerm) || emoji.keywords.includes(searchTerm);
   }).slice(0, maxResults);

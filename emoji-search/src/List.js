@@ -9,9 +9,9 @@ class List extends React.Component {
 					{this.props.emojis.map((emoji, i) => {
 						return (
 							<Emoji
-							key={i}
-							title={emoji.title}
-							symbol={emoji.symbol}
+								key={i}
+								title={emoji.title}
+								symbol={emoji.symbol}
 							/>
 						);
 					})}
